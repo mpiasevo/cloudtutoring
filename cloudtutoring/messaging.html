@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cloud Tutoring</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+	input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	width: 80px;
+	height: 50px;
+}
+	textarea {
+    width: 150%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+	color: #000000;
+}
+	body {
+    background-color: #2D2D2D;
+	font-family: "Myriad Pro", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	letter-spacing: -1px;
+	color: #FFF;
+}
+	.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #2D2D2D;
+	color: #FFF;
+	padding: 2% 0;
+	font-size: 1.2em;
+	border: 0;
+  }
+  .navbar-brand {
+	float: left;
+	min-height: 55px;
+	padding: 0 15px 5px;
+  }
+  .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,.navbar-inverse .navbar-nav .active a:hover {
+	color: #FFF;
+	background-color: #2D2D2D;
+  }
+  .navbar-inverse .navbar-nav li a {
+	color: #D5D5D5;
+  }
+  .text-left {
+		color: #FFF;  
+	  }
+	  .resize {
+    width: 300px;
+	padding-right: -2%;
+    height: auto;
+	} 
+	 	  .resize2 {
+    width: 150%;
+	padding-right: -2%;
+    height: auto;
+	} 
+	  .row {
+		  font-size: 40pt;
+	  } 
+
+  </style>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class= "navbar-toggle" data-toggle="collapse" data-target ="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html"><img class="resize" src="img/logo.png"></a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavBar">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="index.html">Choose A Topic</a></li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+	</div>
+	<div class="row">
+		<div class="col-sm-4 col-md-offset-1 col-md-3">
+			<span style="color: #FF7700">Message Your Tutor.</span>
+			<br>
+			<br><p style="font-size: 0.4em", "line-height:16px"> Ask questions about your homework, tests, or general topics and your tutor will do their best to answer them! Or you can meet up with them in person for one on one help.</p>
+		</div>
+		<div class="col-sm-4 col-md-offset-1">
+			<a><img class="resize2" src="img/ChatBox.png"/></a>
+
+			<form>
+  				<textarea></textarea>
+			</form>
+		</div>
+		<div class="col-sm-4 col-md-1 col-md-offset-10">
+			<form action="messaging2.html">
+				<input style="font-size: 0.3em"  type="Submit" value="Send"></input>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
